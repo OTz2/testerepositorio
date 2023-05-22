@@ -1,1 +1,3 @@
-RewriteRule ^([^\.]+)$ $1.html [NC,L]
+RewriteEngine On
+
+RewriteRule ^acordo acordo.html [NC]
