@@ -1,3 +1,2 @@
 RewriteEngine On
-
-RewriteRule ^acordo acordo.html [NC]
+RewriteRule ^([0-9A-Za-z-_]+)$ /$1.html
